@@ -1,0 +1,240 @@
+@extends('layout')
+
+@section('content')
+                <!-- Page content wrap -->
+                <div class="page_content_wrap scheme_default copypress-custom-bg-1">
+                    <div class="content_wrap">
+                        <!-- Content -->
+                        <div class="content">
+                            <article class="post_item_single page">
+                                <div class="post_content">
+                                    <div class="empty_space height_6_67em"></div>
+                                    <!-- THE ESSENTIAL GRID -->
+                                    <article class="myportfolio-container minimal-light" id="esg-grid-4-1-wrap">
+                                        <div id="esg-grid-4-1" class="esg-grid">
+                                            <article class="esg-filters esg-singlefilters">
+                                                <!-- THE FILTER BUTTONS -->
+                                                <div class="esg-filter-wrapper esg-fgc-4">
+                                                    <div class="esg-filterbutton selected esg-allfilter" data-filter="filterall" data-fid="-1">
+                                                        <span>Filter - All</span>
+                                                    </div>
+                                                    <div class="esg-filterbutton" data-fid="2" data-filter="filter-3d-technology">
+                                                        <span>3D Technology</span>
+                                                        <span class="esg-filter-checked">
+                                                            <i class="eg-icon-ok-1"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="esg-filterbutton" data-fid="3" data-filter="filter-copy-everything">
+                                                        <span>Copy Everything</span>
+                                                        <span class="esg-filter-checked">
+                                                            <i class="eg-icon-ok-1"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="esg-filterbutton" data-fid="4" data-filter="filter-lifestyle">
+                                                        <span>Lifestyle</span>
+                                                        <span class="esg-filter-checked">
+                                                            <i class="eg-icon-ok-1"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="esg-filterbutton" data-fid="5" data-filter="filter-photography">
+                                                        <span>Photography</span>
+                                                        <span class="esg-filter-checked">
+                                                            <i class="eg-icon-ok-1"></i>
+                                                        </span>
+                                                    </div>
+                                                    <div class="eg-clearfix"></div>
+                                                </div>
+                                            </article>
+                                            <div class="esg-clear-no-height"></div>
+                                            <ul>
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-3d-technology filter-business-cards filter-posters eg-washington-copypress-wrapper" data-cobblesw="2" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1600.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Custom View Magazine Design</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-copy-everything filter-booklets filter-magazines eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1600.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Business Logo Design</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-photography filter-business-cards filter-posters eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1700.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Press-Glued Catalog Printing</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-3d-technology filter-booklets filter-magazines eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1660.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Commercial Billboard Prints</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-copy-everything filter-business-cards filter-posters eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="2">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1300.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Business Cards Design and Printing</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-photography filter-booklets filter-magazines eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1435.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Creative Writing Publishing</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-3d-technology filter-booklets filter-magazines eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1455.jpg" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Branding Promotion and Logo Design</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-copy-everything filter-business-cards filter-posters eg-washington-copypress-wrapper" data-cobblesw="1" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1800" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-center eg-washington-copypress-element-8 esg-none esg-clear"></div>
+                                                            <div class="esg-center eg-washington-copypress-element-9 esg-none esg-clear"></div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">Icons, Letters and Images Printing</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                                <!-- Grid Item -->
+                                                <li class="filterall filter-photography filter-booklets filter-magazines eg-washington-copypress-wrapper" data-cobblesw="2" data-cobblesh="1">
+                                                    <div class="esg-media-cover-wrapper">
+                                                        <div class="esg-entry-media">
+                                                            <img src="http://placehold.it/2400x1275" alt="">
+                                                        </div>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-slideright eg-washington-copypress-container" data-delay="0"></div>
+                                                            <div class="esg-absolute eg-washington-copypress-element-1-a esg-fade" data-delay="0.4">
+                                                                <a class="eg-washington-copypress-element-1" href="post-single.html" target="_self">
+                                                                    <i class="eg-icon-right-open-1"></i>
+                                                                </a>
+                                                            </div>
+                                                            <div class="esg-bottom eg-washington-copypress-element-3 esg-slideright" data-delay="0.3">All Size Copy and Printing Paper</div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <!-- /Grid Item -->
+                                            </ul>
+                                        </div>
+                                    </article>
+                                    <div class="clear"></div>
+                                    <div class="empty_space height_6_67em"></div>
+                                </div>
+                            </article>
+                        </div>
+                        <!-- /Content -->
+                    </div>
+                </div>
+                <!-- /Page content wrap -->
+                @endsection
